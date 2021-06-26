@@ -1,8 +1,6 @@
-Header{
+nav{
     background-color: darkslategrey;
     width:100%;
-    height:80px;
-    /* position: absolute; */
 }
 
 li{
@@ -32,15 +30,12 @@ input{
     height:20px;
 }
 
-.main-title{
-    top:40px;
-}
 
 label {
-    text-align: right;
-    clear: both;
+    /* text-align: right; */
+    /* clear: both;
     float:left;
-    margin-right:15px;
+    margin-right:15px; */
 }
 
 footer{
@@ -56,15 +51,14 @@ footer{
 
 .contact-box {
     display:block;
-    height:'auto';
+    height:auto;
     background-color: lightsalmon;
     border-radius: 20px solid black;
     font-family: Arial, Helvetica, sans-serif;
     width:500px;
-    margin:200px 690px;
-
+    padding: 50px
 }
 
-.input-button{
-    margin:20px 0 20px 150px
+.inputButton{
+   margin: 20px 150px 0 150px; 
 }
